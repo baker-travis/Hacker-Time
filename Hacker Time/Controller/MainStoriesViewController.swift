@@ -115,6 +115,16 @@ class MainStoriesViewController: UIViewController, NVActivityIndicatorViewable {
             }
         }
     }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if identifier == "showStoryDetails" {
+            if dbManager.getItem(id: topStoriesIdList[currentlySelectedRow]) == nil {
+                return false
+            }
+        }
+        
+        return true
+    }
 }
 
 extension MainStoriesViewController: UITableViewDataSource {
