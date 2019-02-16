@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1A4C7822176AE900CFA66D /* TopStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A4C7722176AE900CFA66D /* TopStories.swift */; };
+		1F1A4C7A22176C1100CFA66D /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A4C7922176C1100CFA66D /* DatabaseManager.swift */; };
+		1F1A4C7D22176F0300CFA66D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A4C7C22176F0300CFA66D /* Item.swift */; };
+		1F1A4C8122179A4100CFA66D /* StoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A4C8022179A4100CFA66D /* StoryDetailViewController.swift */; };
 		1F25E66B2203E90000F78B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25E66A2203E90000F78B45 /* AppDelegate.swift */; };
-		1F25E66D2203E90000F78B45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25E66C2203E90000F78B45 /* ViewController.swift */; };
+		1F25E66D2203E90000F78B45 /* MainStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25E66C2203E90000F78B45 /* MainStoriesViewController.swift */; };
 		1F25E6702203E90000F78B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F25E66E2203E90000F78B45 /* Main.storyboard */; };
 		1F25E6722203E90100F78B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F25E6712203E90100F78B45 /* Assets.xcassets */; };
 		1F25E6752203E90100F78B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F25E6732203E90100F78B45 /* LaunchScreen.storyboard */; };
+		1F25E6802203E95B00F78B45 /* HackerNewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25E67F2203E95B00F78B45 /* HackerNewsAPI.swift */; };
+		1F25E6822203EEC500F78B45 /* ItemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25E6812203EEC500F78B45 /* ItemResponse.swift */; };
+		D3349E6192EEC8727117A04A /* Pods_Hacker_Time.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B7211C40426668E2397E73 /* Pods_Hacker_Time.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F1A4C7722176AE900CFA66D /* TopStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStories.swift; sourceTree = "<group>"; };
+		1F1A4C7922176C1100CFA66D /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		1F1A4C7C22176F0300CFA66D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1F1A4C8022179A4100CFA66D /* StoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewController.swift; sourceTree = "<group>"; };
 		1F25E6672203E90000F78B45 /* Hacker Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F25E66A2203E90000F78B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F25E66C2203E90000F78B45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F25E66C2203E90000F78B45 /* MainStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStoriesViewController.swift; sourceTree = "<group>"; };
 		1F25E66F2203E90000F78B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F25E6712203E90100F78B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F25E6742203E90100F78B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F25E6762203E90100F78B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F25E67F2203E95B00F78B45 /* HackerNewsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsAPI.swift; sourceTree = "<group>"; };
+		1F25E6812203EEC500F78B45 /* ItemResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemResponse.swift; sourceTree = "<group>"; };
+		719CA25452360EDA15449E78 /* Pods-Hacker Time.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacker Time.debug.xcconfig"; path = "Target Support Files/Pods-Hacker Time/Pods-Hacker Time.debug.xcconfig"; sourceTree = "<group>"; };
+		E6B7211C40426668E2397E73 /* Pods_Hacker_Time.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hacker_Time.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48A43C33AAE1A8389D725AE /* Pods-Hacker Time.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacker Time.release.xcconfig"; path = "Target Support Files/Pods-Hacker Time/Pods-Hacker Time.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3349E6192EEC8727117A04A /* Pods_Hacker_Time.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1A4C7B22176EDB00CFA66D /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				1F1A4C7722176AE900CFA66D /* TopStories.swift */,
+				1F1A4C7922176C1100CFA66D /* DatabaseManager.swift */,
+				1F1A4C7C22176F0300CFA66D /* Item.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
 		1F25E65E2203E90000F78B45 = {
 			isa = PBXGroup;
 			children = (
 				1F25E6692203E90000F78B45 /* Hacker Time */,
 				1F25E6682203E90000F78B45 /* Products */,
+				57F0050581636108B4E0A1D2 /* Pods */,
+				D63B03A63DAD4122E7AD24A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,59 @@
 		1F25E6692203E90000F78B45 /* Hacker Time */ = {
 			isa = PBXGroup;
 			children = (
+				1F25E67C2203E92000F78B45 /* Model */,
+				1F25E67D2203E92D00F78B45 /* View */,
+				1F25E67E2203E94200F78B45 /* Controller */,
 				1F25E66A2203E90000F78B45 /* AppDelegate.swift */,
-				1F25E66C2203E90000F78B45 /* ViewController.swift */,
-				1F25E66E2203E90000F78B45 /* Main.storyboard */,
-				1F25E6712203E90100F78B45 /* Assets.xcassets */,
-				1F25E6732203E90100F78B45 /* LaunchScreen.storyboard */,
 				1F25E6762203E90100F78B45 /* Info.plist */,
 			);
 			path = "Hacker Time";
+			sourceTree = "<group>";
+		};
+		1F25E67C2203E92000F78B45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F1A4C7B22176EDB00CFA66D /* Realm */,
+				1F25E67F2203E95B00F78B45 /* HackerNewsAPI.swift */,
+				1F25E6812203EEC500F78B45 /* ItemResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F25E67D2203E92D00F78B45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F25E66E2203E90000F78B45 /* Main.storyboard */,
+				1F25E6712203E90100F78B45 /* Assets.xcassets */,
+				1F25E6732203E90100F78B45 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F25E67E2203E94200F78B45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F25E66C2203E90000F78B45 /* MainStoriesViewController.swift */,
+				1F1A4C8022179A4100CFA66D /* StoryDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		57F0050581636108B4E0A1D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				719CA25452360EDA15449E78 /* Pods-Hacker Time.debug.xcconfig */,
+				F48A43C33AAE1A8389D725AE /* Pods-Hacker Time.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D63B03A63DAD4122E7AD24A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7211C40426668E2397E73 /* Pods_Hacker_Time.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F25E6792203E90100F78B45 /* Build configuration list for PBXNativeTarget "Hacker Time" */;
 			buildPhases = (
+				6CB584B77B4BAAE4C13C6C4B /* [CP] Check Pods Manifest.lock */,
 				1F25E6632203E90000F78B45 /* Sources */,
 				1F25E6642203E90000F78B45 /* Frameworks */,
 				1F25E6652203E90000F78B45 /* Resources */,
+				F6441D4E14C1E24AE17DF5E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +206,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CB584B77B4BAAE4C13C6C4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hacker Time-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6441D4E14C1E24AE17DF5E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hacker Time/Pods-Hacker Time-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hacker Time/Pods-Hacker Time-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F25E6632203E90000F78B45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F25E66D2203E90000F78B45 /* ViewController.swift in Sources */,
+				1F1A4C8122179A4100CFA66D /* StoryDetailViewController.swift in Sources */,
+				1F25E6822203EEC500F78B45 /* ItemResponse.swift in Sources */,
+				1F25E66D2203E90000F78B45 /* MainStoriesViewController.swift in Sources */,
+				1F1A4C7822176AE900CFA66D /* TopStories.swift in Sources */,
+				1F1A4C7D22176F0300CFA66D /* Item.swift in Sources */,
 				1F25E66B2203E90000F78B45 /* AppDelegate.swift in Sources */,
+				1F25E6802203E95B00F78B45 /* HackerNewsAPI.swift in Sources */,
+				1F1A4C7A22176C1100CFA66D /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +413,7 @@
 		};
 		1F25E67A2203E90100F78B45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719CA25452360EDA15449E78 /* Pods-Hacker Time.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +432,7 @@
 		};
 		1F25E67B2203E90100F78B45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48A43C33AAE1A8389D725AE /* Pods-Hacker Time.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
