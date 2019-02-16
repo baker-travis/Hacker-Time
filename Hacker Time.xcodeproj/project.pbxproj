@@ -11,6 +11,7 @@
 		1F1A4C7A22176C1100CFA66D /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A4C7922176C1100CFA66D /* DatabaseManager.swift */; };
 		1F1A4C7D22176F0300CFA66D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A4C7C22176F0300CFA66D /* Item.swift */; };
 		1F1A4C8122179A4100CFA66D /* StoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A4C8022179A4100CFA66D /* StoryDetailViewController.swift */; };
+		1F1A4C832217C51A00CFA66D /* UIViewController+showAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A4C822217C51A00CFA66D /* UIViewController+showAlert.swift */; };
 		1F25E66B2203E90000F78B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25E66A2203E90000F78B45 /* AppDelegate.swift */; };
 		1F25E66D2203E90000F78B45 /* MainStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25E66C2203E90000F78B45 /* MainStoriesViewController.swift */; };
 		1F25E6702203E90000F78B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F25E66E2203E90000F78B45 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		1F1A4C7922176C1100CFA66D /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		1F1A4C7C22176F0300CFA66D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1F1A4C8022179A4100CFA66D /* StoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewController.swift; sourceTree = "<group>"; };
+		1F1A4C822217C51A00CFA66D /* UIViewController+showAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+showAlert.swift"; sourceTree = "<group>"; };
 		1F25E6672203E90000F78B45 /* Hacker Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F25E66A2203E90000F78B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F25E66C2203E90000F78B45 /* MainStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStoriesViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				1F25E66C2203E90000F78B45 /* MainStoriesViewController.swift */,
 				1F1A4C8022179A4100CFA66D /* StoryDetailViewController.swift */,
+				1F1A4C822217C51A00CFA66D /* UIViewController+showAlert.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				1F25E66B2203E90000F78B45 /* AppDelegate.swift in Sources */,
 				1F25E6802203E95B00F78B45 /* HackerNewsAPI.swift in Sources */,
 				1F1A4C7A22176C1100CFA66D /* DatabaseManager.swift in Sources */,
+				1F1A4C832217C51A00CFA66D /* UIViewController+showAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

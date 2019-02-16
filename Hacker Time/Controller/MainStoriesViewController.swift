@@ -53,7 +53,7 @@ class MainStoriesViewController: UIViewController, NVActivityIndicatorViewable {
         do {
             topStoriesIdList = try dbManager.getTopStories().stories
         } catch {
-            // TODO: show error
+            showAlert(title: "Data Corruption", message: "The data appears to be corrupted. We cannot retrieve the saved articles currently.")
         }
     }
     
@@ -62,7 +62,7 @@ class MainStoriesViewController: UIViewController, NVActivityIndicatorViewable {
         HackerNewsAPI.getTopStories { (topStories, error) in
             self.stopAnimating()
             guard error == nil else {
-                // TODO: Show error
+                self.showNetworkError(message: "Could not get new top stories.")
                 return
             }
             
@@ -71,7 +71,7 @@ class MainStoriesViewController: UIViewController, NVActivityIndicatorViewable {
                 self.getTopStories()
                 self.storiesTableView.reloadData()
             } catch {
-                // TODO: show error
+                self.showAlert(title: "Data Save Error", message: "We were unable to save the data retrieved from Hacker News.")
             }
             
         }
